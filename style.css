@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+}
+
+h1 {
+  margin: 20px 0;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.columna {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+}
+
+label {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input[type="range"] {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.color {
+  width: 250px;
+  height: 250px;
+  border: 1px solid #ccc;
+}
+
+.blanco {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  margin: 5px 0;
+  font-family: monospace;
+}
+
+.escudo {
+  font-family: monospace;
+  margin-top: 20px;
+  text-align: center;
+}

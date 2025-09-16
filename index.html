@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bandera de México</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Bandera de México</h1>
+
+  <div class="contenedor">
+    <!-- Verde -->
+    <div class="columna">
+      <label for="verde">Esperanza</label>
+      <input type="range" id="verde" min="0" max="255" value="128">
+      <div class="color" id="verde-box"></div>
+      <p id="verde-hex">#008000</p>
+    </div>
+
+    <!-- Blanco -->
+    <div class="columna">
+      <label>Unidad</label>
+      <p>#FFFFFF</p>
+      <div class="color blanco">
+            <pre class="escudo">
+@@@@@
+@@@@@
+@@@@@
+            </pre>
+        </div>
+    </div>
+
+    <!-- Rojo -->
+    <div class="columna">
+      <label for="rojo">Sangre de nuestros héroes nacionales</label>
+      <input type="range" id="rojo" min="0" max="255" value="128">
+      <div class="color" id="rojo-box"></div>
+      <p id="rojo-hex">#800000</p>
+    </div>
+  </div>
+
+  <h3>Hernandez Hernandez Ignacio - 23200144</h3>
+  <script src="script.js"></script>
+</body>
+</html>
